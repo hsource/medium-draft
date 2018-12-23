@@ -37,7 +37,6 @@ export default class Toolbar extends React.Component {
       urlInputValue: '',
     };
 
-    this.toolbarDiv = null;
     this.onKeyDown = this.onKeyDown.bind(this);
     this.onChange = this.onChange.bind(this);
     this.handleLinkInput = this.handleLinkInput.bind(this);
